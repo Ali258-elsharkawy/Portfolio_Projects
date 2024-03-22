@@ -1,0 +1,12 @@
+The following data provides insights into recent orders processed by the system, including details about the sales channels, hub locations, stores, payments, and delivery information. The dataset comprises a subset of the most recent 100 orders,
+showcasing various attributes such as order IDs, channel names, channel types, hub names and cities, store names, payment details (amount, method, fee, status), geographical coordinates of store locations, order amounts, delivery costs,
+and the delay in delivery duration measured in days.
+
+The dataset has been aggregated by joining multiple tables, including orders, payments, stores, hubs, channels, deliveries, and drivers, to provide comprehensive insights into the order processing pipeline,
+from initial sales channels to final delivery to customers. Each record in the dataset represents a unique order processed by the system, allowing for detailed analysis and monitoring of key performance
+indicators related to sales, payments, and delivery operations.
+
+Please note that the data presented here is a subset of the entire dataset, focusing on the most recent orders and relevant attributes for analysis purposes.
+Further exploration and analysis of the complete dataset may provide additional insights and opportunities for optimization and improvement in the order processing workflow.
+
+data sourse can be found here: https://www.kaggle.com/datasets/nosbielcs/brazilian-delivery-center
