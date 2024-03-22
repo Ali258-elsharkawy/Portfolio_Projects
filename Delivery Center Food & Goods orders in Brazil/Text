@@ -6,8 +6,9 @@ The dataset has been aggregated by joining multiple tables, including orders, pa
 from initial sales channels to final delivery to customers. Each record in the dataset represents a unique order processed by the system, allowing for detailed analysis and monitoring of key performance
 indicators related to sales, payments, and delivery operations.
 
-Just so you know, the data presented here is a subset of the entire dataset, focusing on the most recent orders and relevant attributes for analysis purposes.
+The data presented here is a subset of the entire dataset, focusing on the most recent orders and relevant attributes for analysis purposes.
 Further exploration and analysis of the complete dataset may provide additional insights and opportunities for optimizing and improving the order processing workflow.
 
 data source can be found here: https://www.kaggle.com/datasets/nosbielcs/brazilian-delivery-center
 
+ The Excel file for this data with its pivot table and pivot chats can be found here: https://1drv.ms/x/c/559b2fb368a3acd3/EYdHw8mZbYpEg4dxiZq7MzEBdyblDXTlCg_qb37lIAma-w?e=Fc4Wk5
