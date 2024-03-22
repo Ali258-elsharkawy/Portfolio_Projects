@@ -473,3 +473,5 @@ JOIN
     drivers ON drivers.driver_id = Modified_deliveries.driver_id;
 
 GO;
+
+-- The Excel file for this data with its pivot table and pivot chats can be found here: https://1drv.ms/x/c/559b2fb368a3acd3/EYdHw8mZbYpEg4dxiZq7MzEBdyblDXTlCg_qb37lIAma-w?e=Fc4Wk5
