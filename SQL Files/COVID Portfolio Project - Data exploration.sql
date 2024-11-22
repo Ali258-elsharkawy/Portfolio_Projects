@@ -1,15 +1,3 @@
---select*
---from CovidDeaths
---order by 3,4
-
---select top 100*
---from CovidDeaths
---order by 3,4
-
---select location, date, total_cases, new_cases, total_deaths,population
---from CovidDeaths
---order by 1,2
-
 --looking at total cases VS total deaths
 
 SELECT
