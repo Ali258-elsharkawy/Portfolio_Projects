@@ -1,0 +1,588 @@
+Filtered DataFrame for StockCode: POST
+        Invoice StockCode Description  Quantity         InvoiceDate                Price          Customer ID         Country
+89       489439      POST     POSTAGE         3 2009-12-01 09:28:00                 18.0              12682.0          France
+126      489444      POST     POSTAGE         1 2009-12-01 09:55:00                141.0              12636.0             USA
+173      489447      POST     POSTAGE         1 2009-12-01 10:10:00                130.0              12362.0         Belgium
+625      489526      POST     POSTAGE         6 2009-12-01 11:50:00                 18.0              12533.0         Germany
+927     C489538      POST     POSTAGE        -1 2009-12-01 12:18:00                  9.6              15796.0  United Kingdom
+...         ...       ...         ...       ...                 ...                  ...                  ...             ...
+522916   537967      POST     POSTAGE         1 2010-12-09 11:31:00                 18.0              12494.0          France
+522930   537995      POST     POSTAGE         2 2010-12-09 11:39:00                 18.0              12712.0         Germany
+522974   538003      POST     POSTAGE         8 2010-12-09 12:05:00                 18.0              12429.0         Denmark
+523064   538008      POST     POSTAGE         5 2010-12-09 12:17:00                 18.0              12683.0          France
+524491   538093      POST     POSTAGE         5 2010-12-09 14:49:00                 18.0              12682.0          France
+
+[865 rows x 8 columns]
+==================================================
+
+Filtered DataFrame for StockCode: D
+        Invoice StockCode Description  Quantity         InvoiceDate                Price          Customer ID         Country
+735     C489535         D    Discount        -1 2009-12-01 12:11:00                  9.0              15299.0  United Kingdom
+736     C489535         D    Discount        -1 2009-12-01 12:11:00                 19.0              15299.0  United Kingdom
+24675   C491428         D    Discount        -1 2009-12-10 20:23:00                  9.1              15494.0  United Kingdom
+29414   C491845         D    Discount        -1 2009-12-14 14:54:00                  1.6                  NaN  United Kingdom
+29958   C491962         D    Discount        -1 2009-12-14 16:38:00                  0.6              13206.0  United Kingdom
+...         ...       ...         ...       ...                 ...                  ...                  ...             ...
+501237   536158         D    Discount         1 2010-11-30 11:57:00                 32.3              13634.0  United Kingdom
+503073  C536379         D    Discount        -1 2010-12-01 09:41:00                 27.5              14527.0  United Kingdom
+511955  C537164         D    Discount        -1 2010-12-05 13:21:00                 29.3              14527.0  United Kingdom
+517436  C537597         D    Discount        -1 2010-12-07 12:34:00                281.0              15498.0  United Kingdom
+522330  C537857         D    Discount        -1 2010-12-08 16:00:00                267.1              17340.0  United Kingdom
+
+[100 rows x 8 columns]
+==================================================
+
+Filtered DataFrame for StockCode: DCGS0058
+       Invoice StockCode       Description  Quantity         InvoiceDate                Price  Customer ID         Country
+2377    489597  DCGS0058  MISO PRETTY  GUM         1 2009-12-01 14:28:00                  0.8          NaN  United Kingdom
+8372    490074  DCGS0058  MISO PRETTY  GUM         1 2009-12-03 14:39:00                  0.8          NaN  United Kingdom
+17264   490745  DCGS0058  MISO PRETTY  GUM         1 2009-12-07 18:02:00                  0.8          NaN  United Kingdom
+30671   491969  DCGS0058  MISO PRETTY  GUM         1 2009-12-14 17:57:00                  0.8          NaN  United Kingdom
+31652   491970  DCGS0058  MISO PRETTY  GUM         1 2009-12-14 18:03:00                  0.8          NaN  United Kingdom
+32045   491971  DCGS0058  MISO PRETTY  GUM         2 2009-12-14 18:37:00                  0.8          NaN  United Kingdom
+34668   492303  DCGS0058  MISO PRETTY  GUM         1 2009-12-16 11:57:00                  0.8          NaN  United Kingdom
+37222   492425  DCGS0058  MISO PRETTY  GUM         1 2009-12-16 17:58:00                  0.8          NaN  United Kingdom
+40878   492782  DCGS0058  MISO PRETTY  GUM         1 2009-12-18 17:06:00                  0.8          NaN  United Kingdom
+41260   492783  DCGS0058  MISO PRETTY  GUM         2 2009-12-18 17:15:00                  0.8          NaN  United Kingdom
+43911   493260  DCGS0058  MISO PRETTY  GUM         2 2009-12-22 14:31:00                  0.8          NaN  United Kingdom
+52086   494147  DCGS0058  MISO PRETTY  GUM         1 2010-01-11 14:39:00                  0.8          NaN  United Kingdom
+61231   494814  DCGS0058  MISO PRETTY  GUM         1 2010-01-19 09:05:00                  0.8          NaN  United Kingdom
+118445  500695  DCGS0058  MISO PRETTY  GUM         1 2010-03-09 12:48:00                  0.8          NaN  United Kingdom
+120727  500918  DCGS0058  MISO PRETTY  GUM         2 2010-03-11 10:30:00                  0.8          NaN  United Kingdom
+125905  501441  DCGS0058  MISO PRETTY  GUM         1 2010-03-16 13:44:00                  0.8          NaN  United Kingdom
+130819  501832  DCGS0058  MISO PRETTY  GUM         6 2010-03-19 16:43:00                  0.8          NaN  United Kingdom
+171527  505684  DCGS0058  MISO PRETTY  GUM         1 2010-04-23 16:16:00                  0.8          NaN  United Kingdom
+186881  507177  DCGS0058  MISO PRETTY  GUM         1 2010-05-06 15:09:00                  0.8          NaN  United Kingdom
+200529  508643  DCGS0058  MISO PRETTY  GUM         1 2010-05-17 15:30:00                  0.8          NaN  United Kingdom
+242918  512911  DCGS0058  MISO PRETTY  GUM         1 2010-06-18 14:56:00                  0.8          NaN  United Kingdom
+260914  514532  DCGS0058  MISO PRETTY  GUM         1 2010-07-05 10:07:00                  0.8          NaN  United Kingdom
+263411  514835  DCGS0058  MISO PRETTY  GUM         1 2010-07-06 14:25:00                  0.8          NaN  United Kingdom
+270715  515609  DCGS0058  MISO PRETTY  GUM         2 2010-07-13 15:44:00                  0.8          NaN  United Kingdom
+274892  516146  DCGS0058  MISO PRETTY  GUM         1 2010-07-16 17:58:00                  0.8          NaN  United Kingdom
+278354  516470  DCGS0058  MISO PRETTY  GUM         1 2010-07-20 15:28:00                  0.8          NaN  United Kingdom
+304081  519027  DCGS0058  MISO PRETTY  GUM         1 2010-08-13 10:00:00                  0.8          NaN  United Kingdom
+352993  523696  DCGS0058  MISO PRETTY  GUM         2 2010-09-23 14:47:00                  0.8          NaN  United Kingdom
+365223  524765  DCGS0058  MISO PRETTY  GUM         1 2010-09-30 15:47:00                  0.8          NaN  United Kingdom
+409703  528613  DCGS0058  MISO PRETTY  GUM         2 2010-10-22 15:57:00                  0.9          NaN  United Kingdom
+413034  528886  DCGS0058               NaN         1 2010-10-25 12:25:00                  0.0          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: DCGS0068
+      Invoice StockCode        Description  Quantity         InvoiceDate                Price  Customer ID         Country
+2378   489597  DCGS0068  DOGS NIGHT COLLAR         1 2009-12-01 14:28:00                  8.7          NaN  United Kingdom
+62734  494918  DCGS0068  DOGS NIGHT COLLAR         1 2010-01-19 17:49:00                  8.5          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: DOT
+       Invoice StockCode     Description  Quantity         InvoiceDate                Price  Customer ID         Country
+2379    489597       DOT  DOTCOM POSTAGE         1 2009-12-01 14:28:00                647.2          NaN  United Kingdom
+2539    489600       DOT  DOTCOM POSTAGE         1 2009-12-01 14:43:00                 56.0          NaN  United Kingdom
+2551    489601       DOT  DOTCOM POSTAGE         1 2009-12-01 14:44:00                 68.4          NaN  United Kingdom
+2571    489602       DOT  DOTCOM POSTAGE         1 2009-12-01 14:45:00                 59.4          NaN  United Kingdom
+2619    489603       DOT  DOTCOM POSTAGE         1 2009-12-01 14:46:00                 42.4          NaN  United Kingdom
+...        ...       ...             ...       ...                 ...                  ...          ...             ...
+524272  538071       DOT  DOTCOM POSTAGE         1 2010-12-09 14:09:00                885.9          NaN  United Kingdom
+524887  538148       DOT  DOTCOM POSTAGE         1 2010-12-09 16:26:00                547.3          NaN  United Kingdom
+525000  538149       DOT  DOTCOM POSTAGE         1 2010-12-09 16:27:00                620.7          NaN  United Kingdom
+525126  538153       DOT  DOTCOM POSTAGE         1 2010-12-09 16:31:00                822.9          NaN  United Kingdom
+525147  538154       DOT  DOTCOM POSTAGE         1 2010-12-09 16:35:00                 85.8          NaN  United Kingdom
+
+[736 rows x 8 columns]
+==================================================
+
+Filtered DataFrame for StockCode: M
+        Invoice StockCode Description  Quantity         InvoiceDate                Price          Customer ID         Country
+2697     489609         M      Manual         1 2009-12-01 14:50:00                  4.0                  NaN  United Kingdom
+3053    C489651         M      Manual        -1 2009-12-01 16:48:00                  5.1              17804.0  United Kingdom
+5897    C489859         M      Manual        -1 2009-12-02 14:45:00                 69.6                  NaN  United Kingdom
+9259    C490126         M      Manual        -1 2009-12-03 18:12:00                  6.0              15884.0  United Kingdom
+9307    C490129         M      Manual        -1 2009-12-03 18:26:00               1998.5              15482.0  United Kingdom
+...         ...       ...         ...       ...                 ...                  ...                  ...             ...
+521074   537800         M      Manual        12 2010-12-08 13:08:00                  0.2              12748.0  United Kingdom
+521122   537804         M      Manual        12 2010-12-08 13:17:00                  3.0              12748.0  United Kingdom
+521124   537804         M      Manual        12 2010-12-08 13:17:00                  0.2              12748.0  United Kingdom
+524696  C538124         M      Manual        -4 2010-12-09 15:43:00                  0.5              15329.0  United Kingdom
+524776   538147         M      Manual         1 2010-12-09 16:11:00                 15.0              13090.0  United Kingdom
+
+[850 rows x 8 columns]
+==================================================
+
+Filtered DataFrame for StockCode: DCGS0004
+       Invoice StockCode                 Description  Quantity         InvoiceDate                Price  Customer ID         Country
+8371    490074  DCGS0004  HAYNES CAMPER SHOULDER BAG         1 2009-12-03 14:39:00                 17.4          NaN  United Kingdom
+98951   498699  DCGS0004                         NaN        -2 2010-02-22 12:32:00                  0.0          NaN  United Kingdom
+164723  504935  DCGS0004  HAYNES CAMPER SHOULDER BAG         1 2010-04-19 11:19:00                 17.0          NaN  United Kingdom
+401083  527789  DCGS0004  HAYNES CAMPER SHOULDER BAG         1 2010-10-19 11:10:00                 17.0          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: DCGS0076
+       Invoice StockCode                   Description  Quantity         InvoiceDate                Price  Customer ID         Country
+8373    490074  DCGS0076  SUNJAR LED NIGHT NIGHT LIGHT         1 2009-12-03 14:39:00                 16.5          NaN  United Kingdom
+16426   490741  DCGS0076  SUNJAR LED NIGHT NIGHT LIGHT         1 2009-12-07 17:56:00                 16.5          NaN  United Kingdom
+17265   490745  DCGS0076  SUNJAR LED NIGHT NIGHT LIGHT         1 2009-12-07 18:02:00                 16.5          NaN  United Kingdom
+20324   491043  DCGS0076  SUNJAR LED NIGHT NIGHT LIGHT         1 2009-12-09 09:51:00                 16.5          NaN  United Kingdom
+30673   491969  DCGS0076  SUNJAR LED NIGHT NIGHT LIGHT         1 2009-12-14 17:57:00                 16.5          NaN  United Kingdom
+69630   495574  DCGS0076  SUNJAR LED NIGHT NIGHT LIGHT         1 2010-01-25 17:36:00                 16.1          NaN  United Kingdom
+87575   497590  DCGS0076  SUNJAR LED NIGHT NIGHT LIGHT         1 2010-02-10 17:59:00                 16.1          NaN  United Kingdom
+118446  500695  DCGS0076  SUNJAR LED NIGHT NIGHT LIGHT         1 2010-03-09 12:48:00                 16.1          NaN  United Kingdom
+169935  505510  DCGS0076  SUNJAR LED NIGHT NIGHT LIGHT         2 2010-04-22 14:33:00                 16.1          NaN  United Kingdom
+212437  509972  DCGS0076  SUNJAR LED NIGHT NIGHT LIGHT         1 2010-05-26 13:34:00                 16.1          NaN  United Kingdom
+327478  521357  DCGS0076  SUNJAR LED NIGHT NIGHT LIGHT         1 2010-09-03 16:04:00                 16.1          NaN  United Kingdom
+450081  532139  DCGS0076  SUNJAR LED NIGHT NIGHT LIGHT         2 2010-11-11 11:18:00                 16.1          NaN  United Kingdom
+524271  538071  DCGS0076  SUNJAR LED NIGHT NIGHT LIGHT         1 2010-12-09 14:09:00                 16.1          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: C2
+       Invoice StockCode Description  Quantity         InvoiceDate                Price          Customer ID          Country
+9292    490127        C2    CARRIAGE         1 2009-12-03 18:13:00                 50.0              14156.0             EIRE
+14481   490541        C2    CARRIAGE         1 2009-12-07 09:25:00                 50.0                  NaN             EIRE
+14502   490542        C2    CARRIAGE         1 2009-12-07 09:42:00                 50.0              14911.0             EIRE
+19541   490998        C2    CARRIAGE         1 2009-12-08 17:24:00                 50.0              16253.0   United Kingdom
+22803   491160        C2    CARRIAGE         1 2009-12-10 10:29:00                 50.0              14911.0             EIRE
+...        ...       ...         ...       ...                 ...                  ...                  ...              ...
+504361  536540        C2    CARRIAGE         1 2010-12-01 14:05:00                 50.0              14911.0             EIRE
+515057  537368        C2    CARRIAGE         1 2010-12-06 12:40:00                 50.0              14911.0             EIRE
+515390  537378        C2    CARRIAGE         1 2010-12-06 13:06:00                 50.0              14911.0             EIRE
+522913  537963        C2    CARRIAGE         1 2010-12-09 11:30:00                 50.0              13369.0   United Kingdom
+522954  538002        C2    CARRIAGE         1 2010-12-09 11:48:00                 50.0              14932.0  Channel Islands
+
+[138 rows x 8 columns]
+==================================================
+
+Filtered DataFrame for StockCode: BANK CHARGES
+        Invoice     StockCode    Description  Quantity         InvoiceDate                Price          Customer ID         Country
+18410   C490943  BANK CHARGES   Bank Charges        -1 2009-12-08 14:08:00                 15.0              16703.0  United Kingdom
+18466    490948  BANK CHARGES   Bank Charges         1 2009-12-08 14:29:00                 15.0              16805.0  United Kingdom
+33435   C492206  BANK CHARGES   Bank Charges        -1 2009-12-15 16:32:00                848.4                  NaN  United Kingdom
+55948   C494438  BANK CHARGES   Bank Charges        -1 2010-01-14 12:15:00                768.0                  NaN  United Kingdom
+94431    498269  BANK CHARGES   Bank Charges         1 2010-02-17 15:03:00                 15.0              16928.0  United Kingdom
+...         ...           ...            ...       ...                 ...                  ...                  ...             ...
+450634  C532203  BANK CHARGES   Bank Charges        -1 2010-11-11 12:31:00                 15.0                  NaN  United Kingdom
+455268   532637  BANK CHARGES   Bank Charges         1 2010-11-12 16:18:00                 15.0              13174.0  United Kingdom
+493162   535474  BANK CHARGES   Bank Charges         1 2010-11-26 13:56:00                 15.0              16928.0  United Kingdom
+507344   536779  BANK CHARGES   Bank Charges         1 2010-12-02 15:08:00                 15.0              15823.0  United Kingdom
+517373  C537572  BANK CHARGES   Bank Charges        -1 2010-12-07 12:00:00                 95.4                  NaN  United Kingdom
+
+[65 rows x 8 columns]
+==================================================
+
+Filtered DataFrame for StockCode: DCGS0003
+       Invoice StockCode          Description  Quantity         InvoiceDate                Price  Customer ID         Country
+20249   491041  DCGS0003  BOXED GLASS ASHTRAY         1 2009-12-09 09:42:00                  2.6          NaN  United Kingdom
+232222  511858  DCGS0003  BOXED GLASS ASHTRAY         1 2010-06-11 10:05:00                  2.5          NaN  United Kingdom
+238355  512437  DCGS0003  BOXED GLASS ASHTRAY         1 2010-06-15 16:17:00                  2.5          NaN  United Kingdom
+244829  513099  DCGS0003  BOXED GLASS ASHTRAY         1 2010-06-21 15:13:00                  2.5          NaN  United Kingdom
+267418  515287  DCGS0003  BOXED GLASS ASHTRAY         1 2010-07-09 14:58:00                  2.5          NaN  United Kingdom
+421518  529727  DCGS0003  BOXED GLASS ASHTRAY         1 2010-10-29 14:12:00                  2.5          NaN  United Kingdom
+442200  531489  DCGS0003  BOXED GLASS ASHTRAY         1 2010-11-08 15:02:00                  2.5          NaN  United Kingdom
+466307  533348  DCGS0003  BOXED GLASS ASHTRAY         1 2010-11-17 09:23:00                  2.5          NaN  United Kingdom
+478086  534289  DCGS0003  BOXED GLASS ASHTRAY         1 2010-11-22 11:25:00                  2.5          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: TEST001
+        Invoice StockCode              Description  Quantity         InvoiceDate                Price          Customer ID         Country
+27994    491725   TEST001  This is a test product.        10 2009-12-14 08:34:00                  4.5              12346.0  United Kingdom
+28251    491742   TEST001  This is a test product.         5 2009-12-14 11:00:00                  4.5              12346.0  United Kingdom
+28254    491744   TEST001  This is a test product.         5 2009-12-14 11:02:00                  4.5              12346.0  United Kingdom
+39398    492718   TEST001  This is a test product.         5 2009-12-18 10:47:00                  4.5              12346.0  United Kingdom
+45228    493410   TEST001  This is a test product.         5 2010-01-04 09:24:00                  4.5              12346.0  United Kingdom
+45230    493412   TEST001  This is a test product.         5 2010-01-04 09:53:00                  4.5              12346.0  United Kingdom
+56117    494450   TEST001  This is a test product.         5 2010-01-14 13:50:00                  4.5              12346.0  United Kingdom
+66084    495295   TEST001  This is a test product.         5 2010-01-22 13:30:00                  4.5              12346.0  United Kingdom
+89084    497819   TEST001  This is a test product.         5 2010-02-12 14:58:00                  0.0              14103.0  United Kingdom
+89180    497843   TEST001  This is a test product.         5 2010-02-12 15:47:00                  0.0              14827.0  United Kingdom
+156017   504188   TEST001  This is a test product.         5 2010-04-12 09:52:00                  4.5              16454.0  United Kingdom
+371777  C525272   TEST001  This is a test product.        -1 2010-10-04 16:29:00                  4.5              16454.0  United Kingdom
+371778  C525273   TEST001  This is a test product.        -1 2010-10-04 16:30:00                  4.5              16454.0  United Kingdom
+371779  C525274   TEST001  This is a test product.        -1 2010-10-04 16:33:00                  4.5              12346.0  United Kingdom
+371780  C525275   TEST001  This is a test product.        -2 2010-10-04 16:38:00                  4.5              16446.0  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: gift_0001_80
+        Invoice     StockCode                         Description  Quantity         InvoiceDate                Price  Customer ID         Country
+30620    491968  gift_0001_80                                 NaN         2 2009-12-14 17:56:00                  0.0          NaN  United Kingdom
+31079    491969  gift_0001_80  Dotcomgiftshop Gift Voucher £80.00         1 2009-12-14 17:57:00                 69.6          NaN  United Kingdom
+56446   C494472  gift_0001_80  Dotcomgiftshop Gift Voucher £80.00        -1 2010-01-14 14:51:00                 69.6          NaN  United Kingdom
+298842   518488  gift_0001_80                                 NaN        10 2010-08-09 12:29:00                  0.0          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: DCGS0072
+      Invoice StockCode             Description  Quantity         InvoiceDate                Price  Customer ID         Country
+30672  491969  DCGS0072  CAT CAMOUFLAGUE COLLAR         1 2009-12-14 17:57:00                  5.2          NaN  United Kingdom
+34669  492303  DCGS0072  CAT CAMOUFLAGUE COLLAR         2 2009-12-16 11:57:00                  5.2          NaN  United Kingdom
+41261  492783  DCGS0072  CAT CAMOUFLAGUE COLLAR         1 2009-12-18 17:15:00                  5.2          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: gift_0001_20
+       Invoice     StockCode                         Description  Quantity         InvoiceDate                Price  Customer ID         Country
+32048   491971  gift_0001_20  Dotcomgiftshop Gift Voucher £20.00         2 2009-12-14 18:37:00                 17.4          NaN  United Kingdom
+40905   492782  gift_0001_20  Dotcomgiftshop Gift Voucher £20.00         1 2009-12-18 17:06:00                 17.4          NaN  United Kingdom
+45213   493404  gift_0001_20  Dotcomgiftshop Gift Voucher £20.00         1 2009-12-23 15:30:00                 17.4          NaN  United Kingdom
+75097   496247  gift_0001_20  Dotcomgiftshop Gift Voucher £20.00         1 2010-01-29 16:11:00                 17.0          NaN  United Kingdom
+96283   498443  gift_0001_20  Dotcomgiftshop Gift Voucher £20.00         1 2010-02-19 09:49:00                 17.0          NaN  United Kingdom
+153282  503940  gift_0001_20  Dotcomgiftshop Gift Voucher £20.00         1 2010-04-08 14:47:00                 17.0          NaN  United Kingdom
+181337  506577  gift_0001_20  Dotcomgiftshop Gift Voucher £20.00         1 2010-04-30 13:45:00                 17.0          NaN  United Kingdom
+195555  508077  gift_0001_20  Dotcomgiftshop Gift Voucher £20.00         1 2010-05-12 16:29:00                 17.0          NaN  United Kingdom
+254427  513946  gift_0001_20                                 NaN         5 2010-06-29 13:35:00                  0.0          NaN  United Kingdom
+265191  515013  gift_0001_20  Dotcomgiftshop Gift Voucher £20.00         1 2010-07-07 16:29:00                 17.0          NaN  United Kingdom
+269461  515439  gift_0001_20  Dotcomgiftshop Gift Voucher £20.00         1 2010-07-12 14:52:00                 17.0          NaN  United Kingdom
+294963  518138  gift_0001_20  Dotcomgiftshop Gift Voucher £20.00         1 2010-08-04 15:48:00                 17.0          NaN  United Kingdom
+298844  518494  gift_0001_20                                 NaN        10 2010-08-09 12:30:00                  0.0          NaN  United Kingdom
+300176  518660  gift_0001_20  Dotcomgiftshop Gift Voucher £20.00         1 2010-08-10 14:03:00                 13.2          NaN  United Kingdom
+300376  518662  gift_0001_20  Dotcomgiftshop Gift Voucher £20.00         1 2010-08-10 14:08:00                 17.0          NaN  United Kingdom
+301691  518774  gift_0001_20  Dotcomgiftshop Gift Voucher £20.00         1 2010-08-11 15:40:00                 17.0          NaN  United Kingdom
+310324  519619  gift_0001_20  Dotcomgiftshop Gift Voucher £20.00         1 2010-08-19 09:22:00                 17.0          NaN  United Kingdom
+322504  520824  gift_0001_20  Dotcomgiftshop Gift Voucher £20.00         1 2010-08-31 12:30:00                 17.0          NaN  United Kingdom
+492078  535407  gift_0001_20  Dotcomgiftshop Gift Voucher £20.00         1 2010-11-26 11:20:00                 17.0          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: DCGS0044
+      Invoice StockCode              Description  Quantity         InvoiceDate                Price  Customer ID         Country
+33819  492226  DCGS0044  HANDZ-OFF CAR FRESHENER         1 2009-12-15 18:33:00                  2.6          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: TEST002
+      Invoice StockCode              Description  Quantity         InvoiceDate                Price          Customer ID         Country
+39411  492722   TEST002  This is a test product.         1 2009-12-18 10:55:00                  1.0              12346.0  United Kingdom
+44614  493294   TEST002                      NaN         1 2009-12-22 15:15:00                  0.0                  NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: gift_0001_10
+       Invoice     StockCode                         Description  Quantity         InvoiceDate                Price  Customer ID         Country
+40904   492782  gift_0001_10  Dotcomgiftshop Gift Voucher £10.00         1 2009-12-18 17:06:00                  8.7          NaN  United Kingdom
+125922  501441  gift_0001_10  Dotcomgiftshop Gift Voucher £10.00         1 2010-03-16 13:44:00                  8.5          NaN  United Kingdom
+136604  502486  gift_0001_10  Dotcomgiftshop Gift Voucher £10.00         1 2010-03-24 17:43:00                  8.5          NaN  United Kingdom
+218754  510637  gift_0001_10  Dotcomgiftshop Gift Voucher £10.00         1 2010-06-02 11:54:00                  8.5          NaN  United Kingdom
+298848  518496  gift_0001_10                                 NaN        10 2010-08-09 12:31:00                  0.0          NaN  United Kingdom
+352994  523696  gift_0001_10  Dotcomgiftshop Gift Voucher £10.00         1 2010-09-23 14:47:00                  8.5          NaN  United Kingdom
+442201  531489  gift_0001_10  Dotcomgiftshop Gift Voucher £10.00         1 2010-11-08 15:02:00                  8.5          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: gift_0001_50
+       Invoice     StockCode                         Description  Quantity         InvoiceDate                Price  Customer ID         Country
+41263   492783  gift_0001_50  Dotcomgiftshop Gift Voucher £50.00         1 2009-12-18 17:15:00                 43.5          NaN  United Kingdom
+75136   496249  gift_0001_50                                 NaN         3 2010-01-29 16:17:00                  0.0          NaN  United Kingdom
+298841  518491  gift_0001_50                                 NaN        10 2010-08-09 12:29:00                  0.0          NaN  United Kingdom
+376731  525755  gift_0001_50  Dotcomgiftshop Gift Voucher £50.00         1 2010-10-07 10:23:00                 42.5          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: DCGS0066N
+      Invoice  StockCode              Description  Quantity         InvoiceDate                Price  Customer ID         Country
+44245  493265  DCGS0066N  NAVY CUDDLES DOG HOODIE         1 2009-12-22 15:05:00                  8.7          NaN  United Kingdom
+44335  493268  DCGS0066N                      NaN         1 2009-12-22 15:07:00                  0.0          NaN  United Kingdom
+44377  493269  DCGS0066N  NAVY CUDDLES DOG HOODIE         1 2009-12-22 15:07:00                  8.7          NaN  United Kingdom
+44609  493289  DCGS0066N                      NaN         1 2009-12-22 15:13:00                  0.0          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: gift_0001_30
+       Invoice     StockCode                         Description  Quantity         InvoiceDate                Price  Customer ID         Country
+45212   493404  gift_0001_30  Dotcomgiftshop Gift Voucher £30.00         1 2009-12-23 15:30:00                 26.1          NaN  United Kingdom
+54564   494380  gift_0001_30                                 NaN         5 2010-01-13 17:39:00                  0.0          NaN  United Kingdom
+54636   494381  gift_0001_30  Dotcomgiftshop Gift Voucher £30.00         1 2010-01-13 17:44:00                 25.5          NaN  United Kingdom
+66801   495343  gift_0001_30  Dotcomgiftshop Gift Voucher £30.00         1 2010-01-22 18:05:00                 25.5          NaN  United Kingdom
+142163  502872  gift_0001_30  Dotcomgiftshop Gift Voucher £30.00         1 2010-03-29 09:59:00                 25.5          NaN  United Kingdom
+164334  504933  gift_0001_30  Dotcomgiftshop Gift Voucher £30.00         1 2010-04-19 11:13:00                 25.5          NaN  United Kingdom
+174432  505888  gift_0001_30  Dotcomgiftshop Gift Voucher £30.00         1 2010-04-26 14:14:00                 25.5          NaN  United Kingdom
+174563  505935  gift_0001_30                                 NaN         3 2010-04-26 14:54:00                  0.0          NaN  United Kingdom
+181338  506577  gift_0001_30  Dotcomgiftshop Gift Voucher £30.00         1 2010-04-30 13:45:00                 25.5          NaN  United Kingdom
+186882  507177  gift_0001_30  Dotcomgiftshop Gift Voucher £30.00         1 2010-05-06 15:09:00                 25.5          NaN  United Kingdom
+198028  508451  gift_0001_30  Dotcomgiftshop Gift Voucher £30.00         1 2010-05-14 16:33:00                 25.5          NaN  United Kingdom
+216253  510410  gift_0001_30  Dotcomgiftshop Gift Voucher £30.00         1 2010-05-28 17:25:00                 25.5          NaN  United Kingdom
+218415  510624  gift_0001_30                                 NaN         5 2010-06-02 11:23:00                  0.0          NaN  United Kingdom
+262687  514728  gift_0001_30  Dotcomgiftshop Gift Voucher £30.00         1 2010-07-06 09:51:00                 25.5          NaN  United Kingdom
+276114  516197  gift_0001_30  Dotcomgiftshop Gift Voucher £30.00         1 2010-07-19 10:31:00                 25.5          NaN  United Kingdom
+293885  517989  gift_0001_30  Dotcomgiftshop Gift Voucher £30.00         1 2010-08-03 15:29:00                 25.5          NaN  United Kingdom
+298846  518493  gift_0001_30                                 NaN        10 2010-08-09 12:30:00                  0.0          NaN  United Kingdom
+347040  523150  gift_0001_30  Dotcomgiftshop Gift Voucher £30.00         1 2010-09-20 14:52:00                 25.5          NaN  United Kingdom
+381631  526151  gift_0001_30  Dotcomgiftshop Gift Voucher £30.00         1 2010-10-08 15:19:00                 25.5          NaN  United Kingdom
+399538  527520  gift_0001_30  Dotcomgiftshop Gift Voucher £30.00         1 2010-10-18 13:18:00                 25.5          NaN  United Kingdom
+434320  530850  gift_0001_30  Dotcomgiftshop Gift Voucher £30.00         1 2010-11-04 14:49:00                 25.5          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: PADS
+        Invoice StockCode                 Description  Quantity         InvoiceDate                Price          Customer ID         Country
+62299    494914      PADS  PADS TO MATCH ALL CUSHIONS         1 2010-01-19 17:04:00                  0.0              16705.0  United Kingdom
+74731    496222      PADS  PADS TO MATCH ALL CUSHIONS         1 2010-01-29 13:53:00                  0.0              13583.0  United Kingdom
+77702    496473      PADS  PADS TO MATCH ALL CUSHIONS         1 2010-02-01 15:38:00                  0.0              17350.0  United Kingdom
+79794    496643      PADS  PADS TO MATCH ALL CUSHIONS         1 2010-02-03 11:58:00                  0.0              13408.0  United Kingdom
+90798    497935      PADS  PADS TO MATCH ALL CUSHIONS         1 2010-02-15 10:47:00                  0.0              13408.0  United Kingdom
+97716    498562      PADS  PADS TO MATCH ALL CUSHIONS         1 2010-02-21 12:03:00                  0.0              15182.0  United Kingdom
+101718   499056      PADS  PADS TO MATCH ALL CUSHIONS         1 2010-02-24 13:46:00                  0.0              13765.0  United Kingdom
+104480   499399      PADS  PADS TO MATCH ALL CUSHIONS         1 2010-02-26 13:26:00                  0.0              14459.0  United Kingdom
+123947   501176      PADS  PADS TO MATCH ALL CUSHIONS         1 2010-03-15 11:00:00                  0.0              14857.0  United Kingdom
+156809   504332      PADS  PADS TO MATCH ALL CUSHIONS         1 2010-04-12 16:30:00                  0.0              12671.0         Germany
+178629   506303      PADS  PADS TO MATCH ALL CUSHIONS         1 2010-04-29 10:43:00                  0.0              14249.0  United Kingdom
+249035  C513477      PADS  PADS TO MATCH ALL CUSHIONS        -1 2010-06-24 16:56:00                 36.6              14459.0  United Kingdom
+341826   522766      PADS  PADS TO MATCH ALL CUSHIONS         1 2010-09-16 13:58:00                  0.0              15182.0  United Kingdom
+440930   531433      PADS  PADS TO MATCH ALL CUSHIONS         1 2010-11-08 11:54:00                  0.0              13317.0  United Kingdom
+468280   533528      PADS  PADS TO MATCH ALL CUSHIONS         1 2010-11-17 15:08:00                  0.0              15750.0  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: ADJUST
+        Invoice StockCode                          Description  Quantity         InvoiceDate                Price          Customer ID         Country
+70975    495732    ADJUST  Adjustment by john on 26/01/2010 16         1 2010-01-26 16:20:00                 96.5                  NaN            EIRE
+70976    495733    ADJUST  Adjustment by john on 26/01/2010 16         1 2010-01-26 16:21:00                 68.3              14911.0            EIRE
+70977    495735    ADJUST  Adjustment by john on 26/01/2010 16         1 2010-01-26 16:22:00                201.6              12745.0            EIRE
+70978    495734    ADJUST  Adjustment by john on 26/01/2010 16         1 2010-01-26 16:22:00                205.8              14911.0            EIRE
+70979   C495737    ADJUST  Adjustment by john on 26/01/2010 16        -1 2010-01-26 16:23:00                 10.5              16154.0  United Kingdom
+...         ...       ...                                  ...       ...                 ...                  ...                  ...             ...
+71082    495802    ADJUST  Adjustment by john on 26/01/2010 17         1 2010-01-26 17:28:00                387.5              12748.0  United Kingdom
+71083   C495803    ADJUST  Adjustment by john on 26/01/2010 17        -1 2010-01-26 17:29:00                 59.1                  NaN            EIRE
+208669  C509473    ADJUST  Adjustment by Peter on 24/05/2010 1        -1 2010-05-24 11:12:00                300.1              17050.0  United Kingdom
+208670  C509474    ADJUST  Adjustment by Peter on 24/05/2010 1        -1 2010-05-24 11:13:00                 72.5              16422.0  United Kingdom
+208671  C509475    ADJUST  Adjustment by Peter on 24/05/2010 1        -1 2010-05-24 11:13:00                358.5              17364.0  United Kingdom
+
+[67 rows x 8 columns]
+==================================================
+
+Filtered DataFrame for StockCode: gift_0001_40
+       Invoice     StockCode                         Description  Quantity         InvoiceDate                Price  Customer ID         Country
+75137   496248  gift_0001_40                                 NaN         3 2010-01-29 16:17:00                  0.0          NaN  United Kingdom
+298847  518492  gift_0001_40                                 NaN        10 2010-08-09 12:30:00                  0.0          NaN  United Kingdom
+299652  518579  gift_0001_40  Dotcomgiftshop Gift Voucher £40.00         1 2010-08-10 12:08:00                 31.4          NaN  United Kingdom
+407443  528382  gift_0001_40  Dotcomgiftshop Gift Voucher £40.00         1 2010-10-21 18:01:00                 34.0          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: gift_0001_60
+       Invoice     StockCode Description  Quantity         InvoiceDate                Price  Customer ID         Country
+75138   496250  gift_0001_60         NaN         3 2010-01-29 16:17:00                  0.0          NaN  United Kingdom
+298843  518490  gift_0001_60         NaN        10 2010-08-09 12:29:00                  0.0          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: gift_0001_70
+       Invoice     StockCode                         Description  Quantity         InvoiceDate                Price  Customer ID         Country
+75139   496251  gift_0001_70                                 NaN         2 2010-01-29 16:17:00                  0.0          NaN  United Kingdom
+235291  512168  gift_0001_70  Dotcomgiftshop Gift Voucher £70.00         1 2010-06-14 11:24:00                 59.6          NaN  United Kingdom
+298840  518489  gift_0001_70                                 NaN        10 2010-08-09 12:29:00                  0.0          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: gift_0001_90
+       Invoice     StockCode Description  Quantity         InvoiceDate                Price  Customer ID         Country
+75141   496252  gift_0001_90         NaN         2 2010-01-29 16:18:00                  0.0          NaN  United Kingdom
+298839  518487  gift_0001_90         NaN        10 2010-08-09 12:28:00                  0.0          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: DCGSSGIRL
+       Invoice  StockCode      Description  Quantity         InvoiceDate                Price  Customer ID         Country
+80231   496722  DCGSSGIRL              NaN        -1 2010-02-03 14:04:00                  0.0          NaN  United Kingdom
+241372  512738  DCGSSGIRL           update       100 2010-06-17 14:11:00                  0.0          NaN  United Kingdom
+244831  513099  DCGSSGIRL  GIRLS PARTY BAG         3 2010-06-21 15:13:00                  3.4          NaN  United Kingdom
+246184  513200  DCGSSGIRL  GIRLS PARTY BAG         6 2010-06-22 16:28:00                  3.4          NaN  United Kingdom
+249938  513574  DCGSSGIRL  GIRLS PARTY BAG         1 2010-06-25 15:13:00                  3.4          NaN  United Kingdom
+251930  513655  DCGSSGIRL  GIRLS PARTY BAG         5 2010-06-28 10:02:00                  3.4          NaN  United Kingdom
+253997  513907  DCGSSGIRL  GIRLS PARTY BAG         1 2010-06-29 12:08:00                  3.4          NaN  United Kingdom
+385192  526405  DCGSSGIRL  GIRLS PARTY BAG         6 2010-10-11 13:53:00                  3.4          NaN  United Kingdom
+425616  530060  DCGSSGIRL  GIRLS PARTY BAG         2 2010-11-01 11:35:00                  3.4          NaN  United Kingdom
+427107  530140  DCGSSGIRL  GIRLS PARTY BAG        12 2010-11-01 16:45:00                  3.4          NaN  United Kingdom
+465555  533338  DCGSSGIRL  GIRLS PARTY BAG         6 2010-11-16 18:18:00                  3.4          NaN  United Kingdom
+496963  535835  DCGSSGIRL  GIRLS PARTY BAG         3 2010-11-29 09:46:00                  3.4          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: DCGS0006
+      Invoice StockCode Description  Quantity         InvoiceDate                Price  Customer ID         Country
+80337  496740  DCGS0006         NaN        -1 2010-02-03 14:28:00                  0.0          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: DCGS0016
+      Invoice StockCode Description  Quantity         InvoiceDate                Price  Customer ID         Country
+80338  496741  DCGS0016         NaN        -1 2010-02-03 14:29:00                  0.0          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: DCGS0027
+      Invoice StockCode Description  Quantity         InvoiceDate                Price  Customer ID         Country
+80339  496742  DCGS0027         NaN        -1 2010-02-03 14:29:00                  0.0          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: DCGS0036
+      Invoice StockCode Description  Quantity         InvoiceDate                Price  Customer ID         Country
+80342  496744  DCGS0036         NaN        -1 2010-02-03 14:35:00                  0.0          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: DCGS0039
+      Invoice StockCode Description  Quantity         InvoiceDate                Price  Customer ID         Country
+80361  496746  DCGS0039         NaN        -1 2010-02-03 14:36:00                  0.0          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: DCGS0060
+      Invoice StockCode Description  Quantity         InvoiceDate                Price  Customer ID         Country
+80953  496814  DCGS0060         NaN        -3 2010-02-04 09:46:00                  0.0          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: DCGS0056
+      Invoice StockCode Description  Quantity         InvoiceDate                Price  Customer ID         Country
+81143  496855  DCGS0056         NaN        -4 2010-02-04 11:46:00                  0.0          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: DCGS0059
+      Invoice StockCode Description  Quantity         InvoiceDate                Price  Customer ID         Country
+82846  496988  DCGS0059         NaN        -8 2010-02-05 11:21:00                  0.0          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: GIFT
+      Invoice StockCode Description  Quantity         InvoiceDate                Price  Customer ID         Country
+83304  497107      GIFT         NaN        -9 2010-02-05 15:18:00                  0.0          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: DCGSLBOY
+      Invoice StockCode Description  Quantity         InvoiceDate                Price  Customer ID         Country
+89000  497811  DCGSLBOY         NaN       -16 2010-02-12 14:45:00                  0.0          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: m
+       Invoice StockCode Description  Quantity         InvoiceDate                Price  Customer ID         Country
+96608   498492         m      Manual         1 2010-02-19 10:56:00                  2.5          NaN  United Kingdom
+96609   498492         m      Manual         1 2010-02-19 10:56:00                  3.4          NaN  United Kingdom
+157226  504396         m      Manual         1 2010-04-13 11:45:00                  4.0          NaN  United Kingdom
+228780  511509         m      Manual         1 2010-06-08 15:26:00                  2.5          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: DCGS0053
+      Invoice StockCode Description  Quantity         InvoiceDate                Price  Customer ID         Country
+98950  498698  DCGS0053         NaN        -2 2010-02-22 12:29:00                  0.0          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: DCGS0062
+       Invoice StockCode              Description  Quantity         InvoiceDate                Price  Customer ID         Country
+98952   498700  DCGS0062                      NaN        -1 2010-02-22 12:34:00                  0.0          NaN  United Kingdom
+414064  528952  DCGS0062  ROAD-RAGE CAR FRESHENER         1 2010-10-25 16:57:00                  2.5          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: DCGS0037
+       Invoice StockCode         Description  Quantity         InvoiceDate                Price  Customer ID         Country
+98953   498701  DCGS0037                 NaN        -1 2010-02-22 12:35:00                  0.0          NaN  United Kingdom
+236545  512289  DCGS0037  KEY-RING CORKSCREW         1 2010-06-14 14:49:00                 12.7          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: DCGSSBOY
+       Invoice StockCode     Description  Quantity         InvoiceDate                Price  Customer ID         Country
+101692  499040  DCGSSBOY             NaN       -90 2010-02-24 13:16:00                  0.0          NaN  United Kingdom
+241371  512737  DCGSSBOY          update       100 2010-06-17 14:10:00                  0.0          NaN  United Kingdom
+244830  513099  DCGSSBOY  BOYS PARTY BAG         5 2010-06-21 15:13:00                  3.4          NaN  United Kingdom
+246183  513200  DCGSSBOY  BOYS PARTY BAG         7 2010-06-22 16:28:00                  3.4          NaN  United Kingdom
+249937  513574  DCGSSBOY  BOYS PARTY BAG         3 2010-06-25 15:13:00                  3.4          NaN  United Kingdom
+251929  513655  DCGSSBOY  BOYS PARTY BAG         4 2010-06-28 10:02:00                  3.4          NaN  United Kingdom
+278355  516470  DCGSSBOY  BOYS PARTY BAG         1 2010-07-20 15:28:00                  3.4          NaN  United Kingdom
+385191  526405  DCGSSBOY  BOYS PARTY BAG         1 2010-10-11 13:53:00                  3.4          NaN  United Kingdom
+425615  530060  DCGSSBOY  BOYS PARTY BAG         1 2010-11-01 11:35:00                  3.4          NaN  United Kingdom
+427106  530140  DCGSSBOY  BOYS PARTY BAG         4 2010-11-01 16:45:00                  3.4          NaN  United Kingdom
+466308  533348  DCGSSBOY  BOYS PARTY BAG         1 2010-11-17 09:23:00                  3.4          NaN  United Kingdom
+496962  535835  DCGSSBOY  BOYS PARTY BAG         3 2010-11-29 09:46:00                  3.4          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: DCGSLGIRL
+       Invoice  StockCode Description  Quantity         InvoiceDate                Price  Customer ID         Country
+101693  499042  DCGSLGIRL         NaN       -57 2010-02-24 13:31:00                  0.0          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: S
+        Invoice StockCode Description  Quantity         InvoiceDate                Price  Customer ID         Country
+114061  C500305         S     SAMPLES        -1 2010-03-07 10:59:00                 73.8          NaN  United Kingdom
+114083  C500309         S     SAMPLES        -1 2010-03-07 11:09:00                 32.0          NaN  United Kingdom
+133558  C502083         S     SAMPLES        -1 2010-03-22 15:50:00                170.4          NaN  United Kingdom
+133582  C502088         S     SAMPLES        -1 2010-03-22 16:03:00                259.6          NaN  United Kingdom
+136253  C502438         S     SAMPLES        -1 2010-03-24 13:11:00                605.2          NaN  United Kingdom
+136259  C502442         S     SAMPLES        -1 2010-03-24 13:20:00                 94.2          NaN  United Kingdom
+181508   506601         S     SAMPLES         1 2010-04-30 14:49:00                 73.8          NaN  United Kingdom
+181509  C506602         S     SAMPLES        -1 2010-04-30 14:56:00                  3.8          NaN  United Kingdom
+181510  C506602         S     SAMPLES        -1 2010-04-30 14:56:00                  3.5          NaN  United Kingdom
+181511  C506602         S     SAMPLES        -1 2010-04-30 14:56:00                 77.0          NaN  United Kingdom
+181512  C506602         S     SAMPLES        -1 2010-04-30 14:56:00                 30.0          NaN  United Kingdom
+181513  C506602         S     SAMPLES        -1 2010-04-30 14:56:00                 78.0          NaN  United Kingdom
+181540  C506605         S     SAMPLES        -1 2010-04-30 15:23:00                 10.5          NaN  United Kingdom
+181543  C506607         S     SAMPLES        -1 2010-04-30 15:28:00                 12.5          NaN  United Kingdom
+181544  C506607         S     SAMPLES        -1 2010-04-30 15:28:00                  7.4          NaN  United Kingdom
+181545  C506607         S     SAMPLES        -1 2010-04-30 15:28:00                 10.0          NaN  United Kingdom
+181546  C506607         S     SAMPLES        -1 2010-04-30 15:28:00                  9.5          NaN  United Kingdom
+181547  C506607         S     SAMPLES        -1 2010-04-30 15:28:00                  5.9          NaN  United Kingdom
+181548  C506607         S     SAMPLES        -1 2010-04-30 15:28:00                  4.0          NaN  United Kingdom
+181549  C506607         S     SAMPLES        -1 2010-04-30 15:28:00                  2.9          NaN  United Kingdom
+182156  C506703         S     SAMPLES        -1 2010-05-02 14:12:00                191.2          NaN  United Kingdom
+182157  C506704         S     SAMPLES        -1 2010-05-02 14:20:00                 88.7          NaN  United Kingdom
+206525  C509368         S     SAMPLES        -1 2010-05-21 14:13:00                  3.5          NaN  United Kingdom
+248622  C513424         S     SAMPLES        -1 2010-06-24 12:53:00                  6.8          NaN  United Kingdom
+248623  C513424         S     SAMPLES        -1 2010-06-24 12:53:00                 19.9          NaN  United Kingdom
+279660  C516614         S     SAMPLES        -1 2010-07-21 14:49:00                 50.0          NaN  United Kingdom
+279661  C516614         S     SAMPLES        -1 2010-07-21 14:49:00                 55.0          NaN  United Kingdom
+279662  C516614         S     SAMPLES        -1 2010-07-21 14:49:00                 50.0          NaN  United Kingdom
+279663  C516614         S     SAMPLES        -1 2010-07-21 14:49:00                 14.0          NaN  United Kingdom
+279664  C516614         S     SAMPLES        -1 2010-07-21 14:49:00                  8.8          NaN  United Kingdom
+320960  C520684         S     SAMPLES        -1 2010-08-27 15:48:00                317.9          NaN  United Kingdom
+404223  C528093         S     SAMPLES        -1 2010-10-20 13:21:00                 32.0          NaN  United Kingdom
+404224  C528093         S     SAMPLES        -1 2010-10-20 13:21:00                104.5          NaN  United Kingdom
+404225  C528093         S     SAMPLES        -1 2010-10-20 13:21:00                 40.0          NaN  United Kingdom
+404226  C528093         S     SAMPLES        -1 2010-10-20 13:21:00                114.0          NaN  United Kingdom
+404227  C528093         S     SAMPLES        -1 2010-10-20 13:21:00                104.0          NaN  United Kingdom
+404228  C528093         S     SAMPLES        -1 2010-10-20 13:21:00                 51.0          NaN  United Kingdom
+404229  C528093         S     SAMPLES        -1 2010-10-20 13:21:00                 32.0          NaN  United Kingdom
+404414  C528103         S     SAMPLES        -1 2010-10-20 13:41:00                251.9          NaN  United Kingdom
+517374  C537581         S     SAMPLES        -1 2010-12-07 12:03:00                 12.9          NaN  United Kingdom
+517375  C537581         S     SAMPLES        -1 2010-12-07 12:03:00                 52.0          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: DCGS0069
+       Invoice StockCode            Description  Quantity         InvoiceDate                Price  Customer ID         Country
+123592  501161  DCGS0069  OOH LA LA DOGS COLLAR         1 2010-03-15 09:28:00                 16.1          NaN  United Kingdom
+148841  503549  DCGS0069  OOH LA LA DOGS COLLAR         1 2010-04-01 15:04:00                 16.1          NaN  United Kingdom
+151515  503823  DCGS0069  OOH LA LA DOGS COLLAR         1 2010-04-07 14:59:00                 16.1          NaN  United Kingdom
+405236  528145  DCGS0069  OOH LA LA DOGS COLLAR         1 2010-10-20 15:56:00                 16.1          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: DCGS0070
+       Invoice StockCode            Description  Quantity         InvoiceDate                Price  Customer ID         Country
+148842  503549  DCGS0070  CAMOUFLAGE DOG COLLAR         1 2010-04-01 15:04:00                 12.7          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: DCGS0075
+       Invoice StockCode           Description  Quantity         InvoiceDate                Price  Customer ID         Country
+148843  503549  DCGS0075  CAMOUFLAGUE DOG LEAD         1 2010-04-01 15:04:00                 12.7          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: B
+        Invoice StockCode      Description  Quantity         InvoiceDate                Price  Customer ID         Country
+179403  A506401         B  Adjust bad debt         1 2010-04-29 13:36:00             -53594.4          NaN  United Kingdom
+276274  A516228         B  Adjust bad debt         1 2010-07-19 11:24:00             -44031.8          NaN  United Kingdom
+403472  A528059         B  Adjust bad debt         1 2010-10-20 12:04:00             -38925.9          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: DCGS0041
+       Invoice StockCode                       Description  Quantity         InvoiceDate                Price  Customer ID         Country
+222345  511021  DCGS0041  HAYNES MINI-COOPER PLAYING CARDS         1 2010-06-04 16:13:00                  5.1          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: ADJUST2
+       Invoice StockCode                          Description  Quantity         InvoiceDate                Price          Customer ID         Country
+249672  513564   ADJUST2  Adjustment by Peter on Jun 25 2010          1 2010-06-25 14:15:00                300.1              17050.0  United Kingdom
+249673  513566   ADJUST2  Adjustment by Peter on Jun 25 2010          1 2010-06-25 14:15:00                358.5              17364.0  United Kingdom
+249674  513565   ADJUST2  Adjustment by Peter on Jun 25 2010          1 2010-06-25 14:15:00                 72.5              16422.0  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: 47503J 
+       Invoice StockCode                       Description  Quantity         InvoiceDate                Price  Customer ID         Country
+260886  514532   47503J   SET/3 FLORAL GARDEN TOOLS IN BAG         1 2010-07-05 10:07:00                 16.1          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: C3
+       Invoice StockCode Description  Quantity         InvoiceDate                Price  Customer ID         Country
+302041  518785        C3         NaN     -4999 2010-08-11 16:55:00                  0.0          NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: SP1002
+       Invoice StockCode             Description  Quantity         InvoiceDate                Price          Customer ID         Country
+377066  525772    SP1002  KID'S CHALKBOARD/EASEL         1 2010-10-07 11:12:00                  3.0              12748.0  United Kingdom
+377387  525837    SP1002  KID'S CHALKBOARD/EASEL         4 2010-10-07 12:23:00                  3.0              17841.0  United Kingdom
+426694  530135    SP1002                     NaN       -27 2010-11-01 15:33:00                  0.0                  NaN  United Kingdom
+==================================================
+
+Filtered DataFrame for StockCode: AMAZONFEE
+        Invoice  StockCode Description  Quantity         InvoiceDate                Price  Customer ID         Country
+440688  C531400  AMAZONFEE  AMAZON FEE        -1 2010-11-08 10:08:00               6706.7          NaN  United Kingdom
+440698   531411  AMAZONFEE  AMAZON FEE         1 2010-11-08 10:11:00               6706.7          NaN  United Kingdom
+517452  C537600  AMAZONFEE  AMAZON FEE        -1 2010-12-07 12:41:00                  1.0          NaN  United Kingdom
+517953  C537630  AMAZONFEE  AMAZON FEE        -1 2010-12-07 15:04:00              13541.3          NaN  United Kingdom
+517955   537632  AMAZONFEE  AMAZON FEE         1 2010-12-07 15:08:00              13541.3          NaN  United Kingdom
+519170  C537644  AMAZONFEE  AMAZON FEE        -1 2010-12-07 15:34:00              13474.8          NaN  United Kingdom
+519251  C537647  AMAZONFEE  AMAZON FEE        -1 2010-12-07 15:41:00               5519.2          NaN  United Kingdom
+519294  C537651  AMAZONFEE  AMAZON FEE        -1 2010-12-07 15:49:00              13541.3          NaN  United Kingdom
+519295  C537652  AMAZONFEE  AMAZON FEE        -1 2010-12-07 15:51:00               6706.7          NaN  United Kingdom
+==================================================
+
