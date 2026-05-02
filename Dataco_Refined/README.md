@@ -87,7 +87,7 @@ contamination and a major catalog restructuring event.
 ## How To View
 
 **Interactive Dashboard**
-Download `PowerBI/DataCo_Analysis.pbix` and open in
+Download `DataCo_Analysis.pbix` and open in
 [Power BI Desktop](https://powerbi.microsoft.com/desktop) (free).
 Data is embedded — no database connection required.
 
